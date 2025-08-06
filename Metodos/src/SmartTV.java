@@ -1,4 +1,25 @@
+/**
+ * <h1>SmartTV</h1>
+ * Classe SmartTV que simula o funcionamento de uma TV inteligente.
+ * <p>
+ * Permite ligar/desligar, aumentar/diminuir volume, mudar canais e navegar entre canais.
+ * <p>
+ * @author Ronnie de Souza
+ * @version 1.0
+ * @since 2023-10-01
+ * <p>
+ */
+
 public class SmartTV {
+    /**
+     * Este metodo é utilizado para ligar a TV.
+     * <p>
+     * @param ligada Indica se a TV está ligada ou não.
+     * @param canal Indica o canal atual da TV.
+     * @param volume Indica o volume atual da TV.
+     * @return void
+     */
+
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
